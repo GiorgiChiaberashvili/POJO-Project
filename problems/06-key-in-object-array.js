@@ -23,10 +23,10 @@ keyInObjectArray(objArray, 'animal'); // => false
     for (let i = 0; i < objArray.length; i++) {
       if (objArray[i].hasOwnProperty(keyString)) {
         return true;
+        }
       }
-    }
     return false;
-  }
+ }
 
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
